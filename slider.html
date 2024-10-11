@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        
+        #slider{
+            width: 600px;
+            height: 300px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid rgb(53, 52, 52);
+            box-shadow: 0px 0px 10px 10px rgb(53, 52, 52);
+
+        }
+
+        #slider #sliderdiv{
+            display: flex;
+        }
+        #slider #sliderdiv div img{
+            width: 600px;
+
+        } 
+        #text{
+            font-size: 40px;
+            margin: 0px;
+            text-align: center;
+            text-shadow: 0 0 10px rgb(53, 52, 52),0 0 10px rgb(53, 52, 52) ;
+        }
+    </style>
+  </head>
+  <body onload="slider()">
+       
+    <h1 id="text">cars</h1>
+
+    <section id="slider">
+      <article id="sliderdiv">
+        <div>
+          <img
+            src="https://f1rstmotors.com/_next/image?url=https%3A%2F%2Ff1rst-motors.s3.me-central-1.amazonaws.com%2Fblog%2F1714771768827-blob&w=3840&q=100"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://wallpapercave.com/wp/wp3325539.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://wallpaper.forfun.com/fetch/b9/b93750657d904ed9fcc95dab61e7f3dd.jpeg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img src="https://wallpapercave.com/wp/wp5163722.jpg" alt="" />
+        </div>
+        <div>
+          <img
+            src="https://images6.alphacoders.com/101/thumb-1920-1012725.jpg"
+            alt=""
+          />
+        </div>
+      </article>
+    </section>
+
+
+    <script src="./slider.js"></script>
+  </body>
+</html>
